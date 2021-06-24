@@ -1,24 +1,24 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import PropTypes from "prop-types"
-import { render } from "react-dom";
 
 export default function Weather({ temp }) {
+    console.log(temp);
     return(
-        <View styles={styles.container}>
+        <View style={styles.container}>
             <Text>{temp}</Text>
         </View>
     );
 }
 
-Weather.PropTypes = {
+Weather.propTypes={
     temp: PropTypes.number.isRequired
-};
+}
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-    },
+    }
 });
