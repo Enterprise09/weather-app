@@ -43,7 +43,7 @@ const weatherOptions = {
   },
   Clouds: {
     iconName: "weather-cloudy",
-    gradient: ["#abbaab", "#ffffff"],
+    gradient: ["#232526", "#414345"],
     title: "Clouds",
     subtitle: "I know, boring",
   },

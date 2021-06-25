@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Get weather app",
+    "githubUrl": "https://github.com/Enterprise09/weather-app.git"
   }
 }
